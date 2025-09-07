@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream99</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <style>
+        .bruno-ace-sc-regular {
+            font-family: "Bruno Ace SC", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body class="bg-slate-100 text-slate-900 flex flex-col md:p-10 p-5 md:gap-10 gap-5 min-h-full max-h-full">
+    <div class="w-full flex gap-5 items-center">
+        <div class=" w-20 h-20 bg-blue-300 mask mask-triangle-4"></div>
+        <p class="bruno-ace-sc-regular flex-1 md:text-5xl text-4xl text-center text-blue-500">Dream99</p>
+        <div class=" w-20 h-20 bg-blue-300 mask mask-triangle-4 rotate-180"></div>
+    </div>
+
+    <div class="w-full flex-1 rounded-3xl bg-blue-300 border-2 border-blue-400 relative flex flex-col gap-5 p-5">
+        <p class="bruno-ace-sc-regular w-full md:text-2xl text-xl text-center text-slate-900">Top 20 Companies</p>
+        <div id="favourites" class="md:grid flex flex-col place-content-start md:grid-cols-4 grid-cols-1 gap-5 w-full overflow-y-auto md:max-h-60 max-h-88 md:min-h-60 min-h-88">
+        </div>
+        <div class=" w-full flex justify-center">
+            <div id="add-btn" class=" flex justify-center items-center gap-3 bg-slate-100 text-blue-400 p-3 rounded-lg cursor-pointer active:scale-95 transition-all">
+                <i class="fi fi-br-plus text-xl transition-all"></i>
+                <span class="font-semibold">Add Company</span>
+            </div>
+        </div>
+        <div id="company-menu-holder" class="md:w-1/3 hidden w-full md:max-h-72 max-h-full bg-slate-100 border-2 border-blue-400 rounded-xl absolute md:bottom-20 bottom-24 transition-all md:min-h-66 min-h-72 md:left-1/3 left-0 p-3" style="margin-bottom: -200px;opacity: 0;">
+            <input id="company-search" type="text" placeholder="Enter company name" class="input w-full bg-slate-100 border border-blue-400 focus:ring-2 ring-blue-400 mb-3">
+            <div id="company-menu" class="flex flex-col gap-3 overflow-y-auto md:max-h-52 max-h-72">
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
