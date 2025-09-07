@@ -16,7 +16,7 @@ app.route("/api/companies")
     res.sendFile(path.join(__dirname, "..", "data", "companies.json"));
 });
 
-const usersFile = path.join(__dirname, "..", "data", "users.json");
+const usersFile = process.env.VERCEL_ENV === 'production' ? path.join("tmp", "data", "users.json") : path.join(__dirname, "..", "data", "users.json");
 
 function loadUsers() {
     if (!fs.existsSync(usersFile)) return {};
