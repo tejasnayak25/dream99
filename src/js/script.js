@@ -27,7 +27,7 @@ addBtn.onclick = () => {
 
 let browserid = localStorage.getItem("browserid");
 if(!browserid) {
-    browserid = crypto.randomUUID();
+    browserid = Math.random().toString(36).substring(2, 15);
     localStorage.setItem("browserid", browserid);
 }
 
