@@ -68,6 +68,6 @@ app.route("/api/user/:uid/companies/:cname")
     res.status(200).json({ companies: users[uid]?.companies || [] });
 });
 
-app.listen(3000, () => {
+app.listen(7000, () => {
     console.log("Server is running on PORT 3000");
 });
