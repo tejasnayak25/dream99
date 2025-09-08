@@ -1,32 +1,202 @@
 [
-  { "name": "NVIDIA", "logo": "https://th.bing.com/th/id/OIP.xcmc-UVseE1NYppGgIOVKAHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" },
-  { "name": "Microsoft", "logo": "https://th.bing.com/th/id/OIP.PWoq1WvDQDxc_MPv4Jt0GwHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" },
-  { "name": "Apple", "logo": "https://tse1.mm.bing.net/th/id/OIP.YH_v-uQ-pwbYIE34aVcIbAHaEw?rs=1&pid=ImgDetMain&o=7&rm=3" },
-  { "name": "Google", "logo": "https://static.vecteezy.com/system/resources/previews/011/598/471/original/google-logo-icon-illustration-free-vector.jpg" },
-  { "name": "Amazon", "logo": "https://tse2.mm.bing.net/th/id/OIP.Xm4703UEndJZdhX_oFL-8AHaHa?w=920&h=920&rs=1&pid=ImgDetMain&o=7&rm=3" },
-  { "name": "Meta Platforms", "logo": "https://th.bing.com/th/id/OIP.9udbiaYj5XUSaewReLvvPAHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" },
-  { "name": "Saudi Aramco", "logo": "https://example.com/logos/aramco.png" },
-  { "name": "Broadcom", "logo": "https://example.com/logos/broadcom.png" },
-  { "name": "TSMC", "logo": "https://example.com/logos/tsmc.png" },
-  { "name": "Berkshire Hathaway", "logo": "https://example.com/logos/berkshire.png" },
-  { "name": "Tesla", "logo": "https://example.com/logos/tesla.png" },
-  { "name": "JPMorgan Chase", "logo": "https://example.com/logos/jpmorgan.png" },
-  { "name": "Walmart", "logo": "https://example.com/logos/walmart.png" },
-  { "name": "Tencent", "logo": "https://example.com/logos/tencent.png" },
-  { "name": "Visa", "logo": "https://example.com/logos/visa.png" },
-  { "name": "Eli Lilly", "logo": "https://example.com/logos/elilly.png" },
-  { "name": "Oracle", "logo": "https://example.com/logos/oracle.png" },
-  { "name": "Mastercard", "logo": "https://example.com/logos/mastercard.png" },
-  { "name": "Netflix", "logo": "https://th.bing.com/th/id/OIP.YxJ2xI6kOBSLrIbVoZtPTgHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" },
-  { "name": "Exxon Mobil", "logo": "https://example.com/logos/exxon.png" },
-  { "name": "Johnson & Johnson", "logo": "https://example.com/logos/jnj.png" },
-  { "name": "Costco", "logo": "https://example.com/logos/costco.png" },
-  { "name": "Home Depot", "logo": "https://example.com/logos/homedepot.png" },
-  { "name": "AbbVie", "logo": "https://example.com/logos/abbvie.png" },
-  { "name": "Bank of America", "logo": "https://example.com/logos/bofa.png" },
-  { "name": "Procter & Gamble", "logo": "https://example.com/logos/pg.png" },
-  { "name": "Palantir", "logo": "https://example.com/logos/palantir.png" },
-  { "name": "ICBC", "logo": "https://example.com/logos/icbc.png" },
-  { "name": "Agricultural Bank of China", "logo": "https://example.com/logos/abc.png" },
-  { "name": "Samsung", "logo": "https://example.com/logos/samsung.png" }
+    {
+        "name": "Google",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    },
+    {
+        "name": "Amazon",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+    },
+    {
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+    },
+    {
+        "name": "Microsoft",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+    },
+    {
+        "name": "Meta",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Meta_Platforms_Inc._logo.svg"
+    },
+    {
+        "name": "Netflix",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+    },
+    {
+        "name": "Tesla",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg"
+    },
+    {
+        "name": "Adobe",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Adobe_Corporate_Logo.png"
+    },
+    {
+        "name": "IBM",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+    },
+    {
+        "name": "Intel",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel-logo.svg"
+    },
+    {
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+    },
+    {
+        "name": "Salesforce",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
+    },
+    {
+        "name": "Spotify",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+    },
+    {
+        "name": "Uber",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
+    },
+    {
+        "name": "Airbnb",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg"
+    },
+    {
+        "name": "PayPal",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+    },
+    {
+        "name": "Samsung",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    },
+    {
+        "name": "Sony",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sony_Logo.svg"
+    },
+    {
+        "name": "Dell",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg"
+    },
+    {
+        "name": "HP",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HP_logo_2012.svg"
+    },
+    {
+        "name": "Twitter",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png"
+    },
+    {
+        "name": "Pinterest",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png"
+    },
+    {
+        "name": "Snapchat",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/a/ad/Snapchat_logo.svg"
+    },
+    {
+        "name": "Dropbox",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg"
+    },
+    {
+        "name": "Zoom",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg"
+    },
+    {
+        "name": "Slack",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png"
+    },
+    {
+        "name": "Reddit",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/82/Reddit_logo_and_wordmark.svg"
+    },
+    {
+        "name": "eBay",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
+    },
+    {
+        "name": "TikTok",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg"
+    },
+    {
+        "name": "Nvidia",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg"
+    },
+    {
+        "name": "AMD",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/AMD_Logo.svg"
+    },
+    {
+        "name": "Qualcomm",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Qualcomm-Logo.svg"
+    },
+    {
+        "name": "Cisco",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg"
+    },
+    {
+        "name": "Xiaomi",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg"
+    },
+    {
+        "name": "LG",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/LG_logo_%282015%29.svg"
+    },
+    {
+        "name": "Motorola",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Motorola_logo.svg"
+    },
+    {
+        "name": "Asus",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/ASUS_Logo.svg"
+    },
+    {
+        "name": "Lenovo",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lenovo_logo_2015.svg"
+    },
+    {
+        "name": "Toshiba",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Toshiba_logo.svg"
+    },
+    {
+        "name": "Siemens",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Siemens-logo.svg"
+    },
+    {
+        "name": "Philips",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Philips_logo.svg"
+    },
+    {
+        "name": "Panasonic",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Panasonic_logo.svg"
+    },
+    {
+        "name": "Foxconn",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Foxconn_logo.svg"
+    },
+    {
+        "name": "Alibaba",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Alibaba_Group_logo.svg"
+    },
+    {
+        "name": "Baidu",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Baidu_Logo.svg"
+    },
+    {
+        "name": "Tencent",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Tencent_Logo.svg"
+    },
+    {
+        "name": "Huawei",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Huawei_Standard_logo.svg"
+    },
+    {
+        "name": "ZTE",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/ZTE_new_logo.svg"
+    },
+    {
+        "name": "Vivo",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Vivo_logo_2019.svg"
+    }
 ]
