@@ -69,7 +69,7 @@ fetch("/api/companies")
         let div = document.createElement("div");
         div.className = "flex shrink-0 rounded-md bg-slate-100 overflow-hidden items-center hover:bg-blue-200 cursor-pointer transition-all";
         div.innerHTML = `
-            <img src="${c.logo}" class="w-12 h-12 aspect-square object-contain rounded-md bg-blue-400 "></img>
+            <img src="${c.logo}" class="w-12 h-12 aspect-square object-contain rounded-md bg-slate-100 "></img>
             <p class="px-5 flex-1 whitespace-nowrap overflow-hidden text-ellipsis">${c.name}</p>
         `;
         companyMenu.append(div);
