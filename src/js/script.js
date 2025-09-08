@@ -43,7 +43,7 @@ function addCompany(c) {
     let div2 = document.createElement("div");
     div2.className = "flex shrink-0 rounded-md bg-slate-100 overflow-hidden items-center hover:bg-blue-200 cursor-pointer transition-all";
     div2.innerHTML = `
-        <img src="${c.logo}" class="w-14 h-14 aspect-square object-cover bg-blue-400 "></img>
+        <img src="${c.logo}" class="w-14 h-14 aspect-square object-contain bg-slate-100 "></img>
         <p data-name="${c.name}" class="px-5 flex-1 whitespace-nowrap overflow-hidden text-ellipsis">${c.name}</p>
         <div class="w-14 h-14 aspect-square flex justify-center items-center">
             <i id="delete-btn" class="fi fi-br-trash text-red-400 text-xl cursor-pointer active:scale-95 transition-all"></i>
